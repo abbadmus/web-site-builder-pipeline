@@ -24,9 +24,15 @@ object App {
     os.remove.all(os.pwd / "result")
     os.makeDir.all(os.pwd / "result" / "post")
 
-    def mdNameToHtml(name: String): String = name.replace(" ", "-").toLowerCase() + ".html"
+    def mdNameToHtml(name: String): String =
+      name.replace(" ", "-").toLowerCase() + ".html"
 
-    for ((_, suffix, path) <- postInfo){
+    val bootstrapCss = link(
+      rel := "stylesheet",
+      href := "https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    )
+
+    for ((_, suffix, path) <- postInfo) {
       val parser: Parser = Parser.builder().build()
       val document: Node = parser.parse(os.read(path))
       val renderer: HtmlRenderer = HtmlRenderer.builder().build()
@@ -36,8 +42,9 @@ object App {
         os.pwd / "result" / "post" / mdNameToHtml(suffix),
         doctype("html")(
           html(
+            head(bootstrapCss),
             body(
-              h1("Blog", " / ", suffix),
+              h1(a(href := "../index.html")("Blog"), " / ", suffix),
               raw(out)
             )
           )
@@ -45,17 +52,19 @@ object App {
       )
     }
 
-  //    os.write(
-  //      os.pwd / "result" / "index.html",
-  //      doctype("html")(
-  //        html(
-  //          body(
-  //            h1("Blog"),
-  //            for ((_, suffix, _) <- postInfo) yield h2(suffix)
-  //          )
-  //        )
-  //      )
-  //    )
+    os.write(
+      os.pwd / "result" / "index.html",
+      doctype("html")(
+        html(
+          head(bootstrapCss),
+          body(
+            h1("Blog"),
+            for ((_, suffix, _) <- postInfo)
+              yield h2(a(href := ("post/" + mdNameToHtml(suffix)), suffix ))
+          )
+        )
+      )
+    )
 
     val parser2 = Parser.builder().build()
 
