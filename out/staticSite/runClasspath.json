@@ -1,0 +1,17 @@
+{
+    "value": [
+        "qref:v1:c8e3e3b5:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalatags_2.13/0.12.0/scalatags_2.13-0.12.0.jar",
+        "qref:v1:07145a65:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mainargs_2.13/0.6.2/mainargs_2.13-0.6.2.jar",
+        "qref:v1:4134b930:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.9.0/os-lib_2.13-0.9.0.jar",
+        "qref:v1:ac9ec788:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/commonmark/commonmark/0.22.0/commonmark-0.22.0.jar",
+        "qref:v1:70cf0b61:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.jar",
+        "qref:v1:589290b0:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.0/sourcecode_2.13-0.3.0.jar",
+        "qref:v1:0f4c6008:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/1.0.0/geny_2.13-1.0.0.jar",
+        "qref:v1:433d3d2f:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.8.1/scala-collection-compat_2.13-2.8.1.jar",
+        "ref:v0:c984eca8:/Users/abbadmus/Desktop/hands-on-scala-programming/static site/staticSite/compile-resources",
+        "ref:v0:c984eca8:/Users/abbadmus/Desktop/hands-on-scala-programming/static site/staticSite/resources",
+        "ref:v0:1bc83ad7:/Users/abbadmus/Desktop/hands-on-scala-programming/static site/out/staticSite/compile.dest/classes"
+    ],
+    "valueHash": 1434694747,
+    "inputsHash": -1248155677
+}

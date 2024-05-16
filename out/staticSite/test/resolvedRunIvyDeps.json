@@ -1,0 +1,18 @@
+{
+    "value": [
+        "qref:v1:5f534532:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.11/utest_2.13-0.7.11.jar",
+        "qref:v1:70cf0b61:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.jar",
+        "qref:v1:c8e3e3b5:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalatags_2.13/0.12.0/scalatags_2.13-0.12.0.jar",
+        "qref:v1:07145a65:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mainargs_2.13/0.6.2/mainargs_2.13-0.6.2.jar",
+        "qref:v1:4134b930:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.9.0/os-lib_2.13-0.9.0.jar",
+        "qref:v1:ac9ec788:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/commonmark/commonmark/0.22.0/commonmark-0.22.0.jar",
+        "qref:v1:9ca2e086:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+        "qref:v1:19e8a83e:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1.jar",
+        "qref:v1:571fda7b:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.jar",
+        "qref:v1:589290b0:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.0/sourcecode_2.13-0.3.0.jar",
+        "qref:v1:0f4c6008:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/1.0.0/geny_2.13-1.0.0.jar",
+        "qref:v1:433d3d2f:/Users/abbadmus/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.8.1/scala-collection-compat_2.13-2.8.1.jar"
+    ],
+    "valueHash": -1260854826,
+    "inputsHash": -1444613189
+}

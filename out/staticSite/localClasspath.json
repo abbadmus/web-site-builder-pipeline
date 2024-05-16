@@ -1,0 +1,9 @@
+{
+    "value": [
+        "ref:v0:c984eca8:/Users/abbadmus/Desktop/hands-on-scala-programming/static site/staticSite/compile-resources",
+        "ref:v0:c984eca8:/Users/abbadmus/Desktop/hands-on-scala-programming/static site/staticSite/resources",
+        "ref:v0:1bc83ad7:/Users/abbadmus/Desktop/hands-on-scala-programming/static site/out/staticSite/compile.dest/classes"
+    ],
+    "valueHash": 1208707420,
+    "inputsHash": 2099370972
+}

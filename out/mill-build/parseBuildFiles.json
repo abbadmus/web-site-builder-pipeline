@@ -1,0 +1,22 @@
+{
+    "value": {
+        "seenScripts": [
+            [
+                "/Users/abbadmus/Desktop/hands-on-scala-programming/static site/build.sc",
+                "import mill._, scalalib._\n\nobject staticSite extends ScalaModule {\n\n  def scalaVersion = \"2.13.11\"\n\n  def ivyDeps: T[Agg[Dep]] = super.ivyDeps() ++ Agg(\n    ivy\"com.lihaoyi::scalatags:0.12.0\",\n    ivy\"com.lihaoyi::mainargs:0.6.2\",\n    ivy\"com.lihaoyi::scalatags:0.11.0\",\n    ivy\"com.lihaoyi::os-lib::0.9.0\",\n    ivy\"org.commonmark:commonmark:0.22.0\"\n  )\n\n  object test extends ScalaTests {\n    def ivyDeps: T[Agg[Dep]] = Agg(ivy\"com.lihaoyi::utest:0.7.11\")\n    def testFramework = \"utest.runner.Framework\"\n  }\n}\n"
+            ]
+        ],
+        "repos": [],
+        "ivyDeps": [],
+        "importGraphEdges": [
+            [
+                "/Users/abbadmus/Desktop/hands-on-scala-programming/static site/build.sc",
+                []
+            ]
+        ],
+        "errors": [],
+        "millImport": false
+    },
+    "valueHash": -1421460279,
+    "inputsHash": 1119365029
+}
